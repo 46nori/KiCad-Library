@@ -283,36 +283,6 @@
 		(uuid "8f55c064-5136-433c-9150-efe6a81cbf51")
 	)
 	(pad "1" thru_hole roundrect
-		(at -33.02 -8.89)
-		(size 2.54 1.27)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "f671d9a4-c0fa-4548-be9b-207160a53b10")
-	)
-	(pad "1" thru_hole roundrect
-		(at -33.02 -6.35)
-		(size 2.54 1.27)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "03259415-1dd2-4dc4-b283-6db7d09171d1")
-	)
-	(pad "1" thru_hole roundrect
-		(at -33.02 6.35)
-		(size 2.54 1.27)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "75b1549d-2766-4748-9189-dbe5bea66d53")
-	)
-	(pad "1" thru_hole roundrect
 		(at -33.02 8.89)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -323,6 +293,36 @@
 		(uuid "eebbf3bb-ac48-4fe1-9474-0170efba0830")
 	)
 	(pad "2" thru_hole roundrect
+		(at -33.02 -8.89)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "f671d9a4-c0fa-4548-be9b-207160a53b10")
+	)
+	(pad "2" thru_hole roundrect
+		(at -33.02 -6.35)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "03259415-1dd2-4dc4-b283-6db7d09171d1")
+	)
+	(pad "3" thru_hole roundrect
+		(at -33.02 6.35)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "75b1549d-2766-4748-9189-dbe5bea66d53")
+	)
+	(pad "4" thru_hole roundrect
 		(at 33.02 -8.89)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -332,7 +332,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "3c72cf5f-a3ca-4cf1-95c0-780debe0d18b")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "4" thru_hole roundrect
 		(at 33.02 -6.35)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -342,7 +342,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "1eb8bc5b-d404-46e7-abf6-45e36df81e1f")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "5" thru_hole roundrect
 		(at 33.02 -3.81)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -352,7 +352,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "0800c3d2-1bfb-4505-a556-a1f35f4df189")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "5" thru_hole roundrect
 		(at 33.02 -1.27)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -362,7 +362,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "2ab48b18-0dd8-404e-8ceb-b475a14b3762")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "5" thru_hole roundrect
 		(at 33.02 1.27)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -372,7 +372,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "269cf62c-3bc5-4858-9ee0-57b12adcc48c")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "5" thru_hole roundrect
 		(at 33.02 3.81)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -382,7 +382,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "fafb0224-3cd7-4cff-b81b-dfff30de4bdc")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "6" thru_hole roundrect
 		(at 33.02 6.35)
 		(size 2.54 1.27)
 		(drill 0.8)
@@ -392,7 +392,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "5f085cf8-4fbd-4ac3-8195-d3ff4d2d15ec")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "6" thru_hole roundrect
 		(at 33.02 8.89)
 		(size 2.54 1.27)
 		(drill 0.8)
