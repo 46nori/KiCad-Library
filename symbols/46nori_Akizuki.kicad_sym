@@ -1137,7 +1137,7 @@
 			)
 		)
 		(symbol "AE-TPS7A4700_1_1"
-			(pin power_in line
+			(pin power_out line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "VOUT"
@@ -1173,7 +1173,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -2.54 -12.7 90)
 				(length 2.54)
 				(name "EN1"
@@ -1191,7 +1191,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 2.54 -12.7 90)
 				(length 2.54)
 				(name "EN2"
