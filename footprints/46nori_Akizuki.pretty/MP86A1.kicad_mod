@@ -1,0 +1,208 @@
+(footprint "MP86A1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Push Button Switch with LED")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "74b6a601-9004-4b05-b139-7f89878da7eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MP86A1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dc035874-d1a8-4fa0-85b7-aefaca33073a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://akizukidenshi.com/goodsaffix/MP86A1X1H-G.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8a35fef-d778-4063-a1d8-8fc09148ade3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13a68fe0-ed61-46df-915b-db7257021c95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.25 -8.8)
+		(end 6.25 8.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a02fc6f0-2f6c-4bfb-b4f2-47a7681e05c4")
+	)
+	(fp_rect
+		(start -6.25 -8.8)
+		(end 6.25 8.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58d21e2a-b7f5-4f49-b131-81eff54106df")
+	)
+	(fp_text user "N.O."
+		(at -2.54 5.715 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "353fb756-cd5d-4f24-b595-8b96c1b902b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "+"
+		(at -1.905 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b9ccc12-f849-400a-8f6c-f3c682606419")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1710c87c-2e88-4515-aee2-18ed80addd96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "N.C."
+		(at 2.54 8.255 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d36ae213-9247-4898-89ef-164b33e6b65a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8cad1fe-43d4-4ae5-8c2b-bb2d36da9447")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 7.625)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b3521ee2-21f5-443b-ab6f-750966589668")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 -7.625)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "48237ccc-0d27-4db4-8ffe-e00660465f18")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 2 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcbc8b37-cebc-4738-bda6-41d2df5ff887")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0915af9c-b80d-4dab-a69b-d28c91b877cf")
+	)
+	(pad "3" thru_hole circle
+		(at 3.81 5.08)
+		(size 2 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8e6c6c6-b7a9-4066-814f-13ab48c7761f")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 5.08)
+		(size 2 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42641e28-65ef-4101-9ae8-a09e3caec5f1")
+	)
+	(pad "5" thru_hole circle
+		(at -1.27 -5.08)
+		(size 1.8 1.8)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70c21c8b-a42d-480c-b2f7-e718a8e3dd6e")
+	)
+	(pad "6" thru_hole circle
+		(at 1.27 -5.08)
+		(size 1.8 1.8)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bdc185a-c8ec-4787-9f5e-5fdedafff91f")
+	)
+	(embedded_fonts no)
+)
